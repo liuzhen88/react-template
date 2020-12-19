@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "export MODE=dev && webpack-dev-server"
+    "dev": "export MODE=dev && webpack-dev-server",
+    "prod": "rm -rf ./build && webpack --config webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",

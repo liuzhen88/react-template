@@ -16,7 +16,12 @@ const config = {
     contentBase: "./public", 
     historyApiFallback: true,
     inline: true,
-    hot: true
+    hot: true,
+    proxy: {
+      '/api': {
+        target: "http://localhost:3000"
+      }
+    }
   },
   resolve: {
     extensions: ['.js', '.json', '.jsx'],

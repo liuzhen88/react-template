@@ -10,6 +10,7 @@ import { Login } from "./Containers";
 import { Container } from "./Components/index.js";
 import routes from "./Routes";
 import store from "./Store";
+import './index.css';
 
 ReactDOM.render(
   <Provider store={store}>
