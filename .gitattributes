@@ -1,0 +1,3 @@
+*.svg diff=nodiff
+iconfont.* diff=nodiff
+#*.lock diff=nodiff
